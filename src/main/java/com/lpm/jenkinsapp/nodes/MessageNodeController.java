@@ -10,4 +10,9 @@ public class MessageNodeController {
     public @ResponseBody String messageInit() {
         return "Initial Test With Jenkins.";
     }
+
+    @GetMapping("/anothermessage")
+    public @ResponseBody String anotherMessage() {
+        return "Initial Test With Jenkins with anothermessage.";
+    }
 }
