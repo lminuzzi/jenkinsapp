@@ -13,6 +13,6 @@ public class MessageNodeController {
 
     @GetMapping("/anothermessage")
     public @ResponseBody String anotherMessage() {
-        return "Initial Test With Jenkins with anothermessage.";
+        return "Initial Test With Jenkins with Another Message.";
     }
 }
